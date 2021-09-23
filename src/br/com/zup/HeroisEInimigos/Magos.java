@@ -10,6 +10,8 @@ métodos da classe tbm com os modficadores de acesso
 ~ default
  */
 
+import java.net.PortUnreachableException;
+
 public class Magos extends Heroi {
     private double poderMagico;
 
@@ -29,7 +31,7 @@ public class Magos extends Heroi {
     }
 
     //Método aplicar magia
-    private double aplicarMagia(){
+    public double aplicarMagia(){
         return poderMagico;
     }
 }
