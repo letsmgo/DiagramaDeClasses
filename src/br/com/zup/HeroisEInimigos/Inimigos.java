@@ -5,7 +5,7 @@ public class Inimigos {
     private double vida;
 
     //Método construtor
-    public Inimigos(String nome, double vida){
+    public Inimigos(String nome, double vida) {
         this.nome = nome;
         this.vida = vida;
     }
@@ -41,7 +41,7 @@ public class Inimigos {
     }
 
     //Método do diagrama exibir vida
-    public double exibirVida(){
-        return getVida();
+    public double exibirVida() {
+        return vida;
     }
 }

@@ -19,13 +19,13 @@ public class Main {
         System.out.println("\n");
 
         //Aplicando dano nos herois
-        novoGuerreiro.receberDano(10);
+        novoGuerreiro.receberDano(novoRasteiro.aplicarDano());
         System.out.println("Seu Guerreiro recebeu danos, e sua vida atual é: ");
         System.out.println(novoGuerreiro.getVida());
 
         novoMago.receberDano(20);
         System.out.println("Seu mago recebeu danos, e sua vida atual é: ");
-        System.out.println(novoMago.getVida());
+        System.out.println(novoMago.exibirVida());
 
         //Aplicando dano nos inimigos
         novoRasteiro.receberDano(30);

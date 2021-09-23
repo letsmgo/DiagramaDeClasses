@@ -51,8 +51,8 @@ public class Heroi {
     }
 
     //Método do diagrama exibir vida
-    public double exibirVida(){
-        return getVida();
+    public double exibirVida() {
+        return vida;
     }
 
 }

@@ -19,7 +19,7 @@ public class Guerreiros extends Heroi {
     }
 
     //Método aplicar dano
-    public double aplicarDano(){
+    public double aplicarDano() {
         return poderDeAtaque;
     }
 
